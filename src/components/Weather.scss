@@ -21,7 +21,7 @@
   .page {
     display: flex;
     justify-content: center;
-    width: 1024px;
+    width: 1280px;
     // height: 100vh;
     background: linear-gradient(125deg, #002b5b, #1a5f7a, #159895, #57c5b6);
     .Container {
@@ -166,7 +166,6 @@
               list-style: none;
               font-size: 16px;
               color: white;
-              border-right: 2px solid white;
               @include phone{
                 border: none;
               }
@@ -176,9 +175,6 @@
                 margin-right: 5px;
               }
             }
-            li:nth-child(4) {
-              border: none;
-           }
           }
         }
         .future{
@@ -205,6 +201,12 @@
                 flex-direction: column;
                 gap: 10px;
                 align-items: center;
+                .hourly-time{
+                  // padding: 5px;
+                  p{
+                    text-align: center;
+                  }
+                }
                 img{
                   width: 50px;
                   height: 50px;
